@@ -24,3 +24,8 @@ function saleHotdogs(n) {
 * [Udemy](https://www.udemy.com/share/101ulQ3@m3JPFzc5MzRGjjmp5I30pdQpGBJGHj86C2lLBFA0JcsZ8mwOWXisPoMenvvhC5CUhA==/)
 ## Experience
 [I'm still just learning](https://github.com/SvetlanaVl/rsschool-cv)
+## Languages
+* Russian (native speaker)
+* English
+  * Test results: A1-A2
+  * I learn in various applications, try to read articles in English
