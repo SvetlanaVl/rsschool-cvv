@@ -18,3 +18,9 @@ function saleHotdogs(n) {
   return n<5 ? n * 100 : n>=5 && n<10 ? n * 95 : n * 90;
 }
 ```
+## Courses
+* [HTML Academy](https://htmlacademy.ru/study)
+* [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+* [Udemy](https://www.udemy.com/share/101ulQ3@m3JPFzc5MzRGjjmp5I30pdQpGBJGHj86C2lLBFA0JcsZ8mwOWXisPoMenvvhC5CUhA==/)
+## Experience
+[I'm still just learning](https://github.com/SvetlanaVl/rsschool-cv)
