@@ -1,3 +1,5 @@
+<img src="https://avatars.githubusercontent.com/u/105418933?s=400&u=0df7611fdaa2cc09c7ff857acdbc0bbddb83132a&v=4" alt="This is me" width="200"/>
+
 # Svetlana Sharygina
 ## Contacts
 * Email: fidelity-67rus@mail.ru
