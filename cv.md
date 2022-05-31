@@ -11,3 +11,10 @@ My goal is to master the profession of a frontend developer. I am independently 
 * CSS
 * Git
 * Figma
+## Code example
+```javascript
+
+function saleHotdogs(n) {
+  return n<5 ? n * 100 : n>=5 && n<10 ? n * 95 : n * 90;
+}
+```
