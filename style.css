@@ -3,18 +3,23 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  min-height: 100%;
   margin: 0;
   padding: 0;
-}
-.container {
+  background-color: #ecc9f7;
   max-width: 1440px;
   margin: 0 auto;
+}
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav {
+  max-width: 1000px;
+  margin-left: 180px;
 }
 .nav-list {
   display: flex;
@@ -28,7 +33,7 @@ body {
 html {
   scroll-behavior: smooth; 
 }
-.main-container {
+.main {
   display: flex;
   flex-wrap: wrap;
 }
@@ -40,28 +45,61 @@ html {
     width: 100%;
   }
 }
-.section-item {
-  position: relative;
-  padding-left: 30px;
-}
-.section-item::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  left: 0px;
-  width: 10px;
-  height: 10px; 
-  border: 1px solid #829985;
-  border-radius: 50%;
-}
+
 .link {
   text-decoration: none;
-  color: #b026da;
+  color: #b810eb;
   transition: color 0.5s;
+  
 }
-.link:hover {
+.nav-list a:hover {
   color: #3de957;
 }
-.link:visited {
-  color: #3dcfe9;
+.nav-list .link {
+  border: 3px solid #b810eb;
+  padding: 5px;
+  border-radius: 10%;
 }
+.color-border img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+
+}
+.color-border {
+  width: 210px;
+  margin: 50px auto 0;
+  padding: 5px;
+  background: #b810eb;
+  border-radius: 50%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+.footer-container img {
+  width: 80%;
+}
+.email {
+  list-style: none;
+  list-style-image: url(assets/svg/email.png);
+}
+.telegram {
+  list-style: none;
+  list-style-image: url(assets/svg/telegram.png);
+}
+.github {
+  list-style: none;
+  list-style-image: url(assets/svg/github.png);
+}
+.discord {
+  list-style: none;
+  list-style-image: url(assets/svg/discord.png);
+}
+
