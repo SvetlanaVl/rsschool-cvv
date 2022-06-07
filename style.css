@@ -13,6 +13,8 @@ body {
   background-color: #ecc9f7;
   max-width: 1000px;
   margin: 0 auto;
+  background-image: url("assets/img/pink.jpg");
+  box-shadow: 0px 0px 60px 10px rgba(145, 11, 185, 0.6);
 }
 .section {
   max-width: 1000px;
@@ -44,7 +46,7 @@ html {
 .section {
   width: 45%;
   padding: 20px;
-  border-bottom: 1px solid #b810eb;
+  border-bottom: 1px solid #910bb9;
   align-content: center;
   padding-left: 40px;
 }
@@ -55,7 +57,7 @@ html {
 }
 .link {
   text-decoration: none;
-  color: #b810eb;
+  color: #4f0864;
   transition: color 0.5s;
   
 }
@@ -63,7 +65,7 @@ html {
   color: #3de957;
 }
 .nav-list .link {
-  border: 3px solid #b810eb;
+  border: 3px solid rgba(145, 11, 185, 0.6);
   padding: 5px;
   border-radius: 10%;
 }
@@ -77,18 +79,19 @@ html {
   width: 210px;
   margin: 50px auto 0;
   padding: 5px;
-  background: #b810eb;
+  background: rgba(145, 11, 185, 0.6);
   border-radius: 50%;
 }
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
   padding: 0 20px;
   line-height: 50px;
   transition: .3s;
+  margin-top: 20px;
 }
 .footer-container img {
   width: 80%;
@@ -109,25 +112,16 @@ html {
   list-style: none;
   list-style-image: url(assets/svg/discord.png);
 }
-.html {
-  list-style: none;
-  list-style-image: url(assets/svg/html.png);
-}
-.css {
-  list-style: none;
-  list-style-image: url(assets/svg/css.png);
-}
-.git {
-  list-style: none;
-  list-style-image: url(assets/svg/git.png);
-}
 .snippet {
-  margin-left: -200px;
+  margin-left: -50px;
+  margin-bottom: -50px;
+  color: #4f0864;
 }
 #welcome {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+
 }
 #contacts {
   margin-top: 50px;
@@ -138,7 +132,7 @@ html {
 ul {
   margin-left: 40px;
 }
-.skills-list {
+.skills-list, .courses-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -148,4 +142,17 @@ ul {
 }
 .indent {
   margin-top: 40px;
+}
+.color-text {
+  color: #910bb9;
+}
+.main {
+  border-bottom: 1px solid #910bb9;
+  border-top: 1px solid #910bb9;
+}
+.section-experience, .section-languages {
+  width: 45%;
+  padding: 20px;
+  align-content: center;
+  padding-left: 40px;
 }
