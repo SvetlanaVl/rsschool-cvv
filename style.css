@@ -16,7 +16,7 @@ body {
   box-shadow: 0px 0px 60px 10px rgb(214, 214, 214);
   color: #fff;
 }
-.main-container, .header, .footer, .red-background {
+.header,.main-container, .footer, .red-background {
   background-color: #460000;
 }
 .black-background {
@@ -48,8 +48,11 @@ nav {
   transition: color 0.5s;
   
 }
+.link:hover {
+  color: rgb(0, 0, 0);
+}
 .nav-list a:hover {
-  color: #3de957;
+  color: #7c0f0f;
 }
 .nav-list .link {
   border: 3px solid #fff;
@@ -89,7 +92,11 @@ html {
     width: 100%;
   }
 }
-
+#welcome {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 .color-border img {
   width: 100%;
   height: auto;
@@ -102,20 +109,6 @@ html {
   padding: 5px;
   background: #460000;
   border-radius: 50%;
-}
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  padding: 0 20px;
-  line-height: 50px;
-  transition: .3s;
-  margin-top: 20px;
-}
-.footer-container img {
-  width: 80%;
 }
 .email {
   list-style: none;
@@ -133,22 +126,22 @@ html {
   list-style: none;
   list-style-image: url(assets/svg/discord.png);
 }
+.email, .telegram, .github {
+  line-height: 2.8;
+}
 .snippet {
   margin-left: -50px;
   margin-bottom: -50px;
   color: #fff;
-}
-#welcome {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-
 }
 .section-title {
   text-align: center;
 }
 ul {
   margin-left: 40px;
+}
+.indent {
+  margin-top: 30px;
 }
 .skills-list {
   list-style: none;
@@ -166,9 +159,32 @@ ul {
   justify-content: center;
   margin-left: -50px;
 }
-.indent {
-  margin-top: 30px;
+figure {
+  display: inline-block;
+  margin: 0;
 }
-.color-text {
-  color: #fff;
+figcaption {
+  float: right;
+  padding-top: 60px;
+  font-size: 26px;
+  padding-left: 60px;
+  
+}
+.img-experience {
+  width: 150px;
+  height: auto;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  margin-top: 20px;
+}
+.footer-container img {
+  width: 80%;
 }
