@@ -2,26 +2,29 @@
   box-sizing: border-box;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.9;
   min-height: 100%;
-  margin: 0;
   padding: 0;
   background-color: #ecc9f7;
-  max-width: 1440px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .section {
-  max-width: 1440px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 nav {
   max-width: 1000px;
-  margin-left: 180px;
+  margin: 0 auto;
 }
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   list-style: none;
@@ -32,12 +35,18 @@ nav {
 html {
   scroll-behavior: smooth; 
 }
-.main {
+.main-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .section {
-  width: 50%;
+  width: 45%;
+  padding: 20px;
+  border-bottom: 1px solid #b810eb;
+  align-content: center;
+  padding-left: 40px;
 }
 @media (max-width: 768px) {
   .section {
@@ -73,6 +82,7 @@ html {
 }
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   list-style: none;
@@ -98,4 +108,44 @@ html {
 .discord {
   list-style: none;
   list-style-image: url(assets/svg/discord.png);
+}
+.html {
+  list-style: none;
+  list-style-image: url(assets/svg/html.png);
+}
+.css {
+  list-style: none;
+  list-style-image: url(assets/svg/css.png);
+}
+.git {
+  list-style: none;
+  list-style-image: url(assets/svg/git.png);
+}
+.snippet {
+  margin-left: -200px;
+}
+#welcome {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#contacts {
+  margin-top: 50px;
+}
+.section-title {
+  text-align: center;
+}
+ul {
+  margin-left: 40px;
+}
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -50px;
+}
+.indent {
+  margin-top: 40px;
 }
