@@ -126,7 +126,7 @@ html {
   list-style: none;
   list-style-image: url(assets/svg/discord.png);
 }
-.email, .telegram, .github {
+.email, .telegram, .github, .languages {
   line-height: 2.8;
 }
 .snippet {
@@ -159,16 +159,11 @@ ul {
   justify-content: center;
   margin-left: -50px;
 }
-figure {
-  display: inline-block;
-  margin: 0;
-}
-figcaption {
-  float: right;
-  padding-top: 60px;
+.caption {
   font-size: 26px;
-  padding-left: 60px;
-  
+  float: right;
+  margin-top: 50px;
+  margin-right: 90px;
 }
 .img-experience {
   width: 150px;
