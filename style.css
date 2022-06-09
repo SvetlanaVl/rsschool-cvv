@@ -159,14 +159,20 @@ ul {
   justify-content: center;
   margin-left: -50px;
 }
+.caption-courses {
+  font-size: 26px;
+  margin: 15px 50px;
+}
+.link-experience {
+  display: flex;
+  justify-content: center;
+}
 .caption {
   font-size: 26px;
-  float: right;
-  margin-top: 50px;
-  margin-right: 90px;
+  margin: 40px 50px;
 }
 .img-experience {
-  width: 150px;
+  width: 30%;
   height: auto;
 }
 .footer-container {
