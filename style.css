@@ -88,7 +88,7 @@ html {
   padding-left: 40px;
 }
 @media (max-width: 768px) {
-  .section {
+  .section, .section-experience, .section-languages {
     width: 100%;
   }
 }
