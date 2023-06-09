@@ -105,13 +105,6 @@ html {
   border: 0.4rem solid #460000;
   margin: 0 -30px auto;
 }
-/* .color-border {
-  width: 210px;
-  margin: 50px auto 0;
-  padding: 5px;
-  background: #460000;
-  border-radius: 50%;
-} */
 .email {
   list-style: none;
   list-style-image: url(assets/svg/email.png);
@@ -156,15 +149,17 @@ html {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  gap: 15px;
   flex-direction: row;
   justify-content: center;
-  margin-left: -50px;
+  margin-left: 0;
+  padding-left: 15px;
+}
+.courses-list-li {
+  width: 45%;
 }
 .caption {
-  font-size: 26px;
-  float: right;
-  margin-top: 50px;
-  margin-right: 90px;
+  font-size: 22px;
 }
 .img-experience {
   width: 150px;
@@ -224,6 +219,10 @@ html {
     padding-left: 30px;
   }
 
+  .courses-list {
+    margin-left: 0;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -238,5 +237,9 @@ html {
   .skills-list {
     margin-left: 0;
     padding: 15px;
+  }
+
+  .courses-list {
+    padding-left: 5px;
   }
 }
