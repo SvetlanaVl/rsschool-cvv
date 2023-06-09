@@ -16,7 +16,9 @@ body {
   box-shadow: 0px 0px 60px 10px rgb(214, 214, 214);
   color: #fff;
 }
-.header,.main-container, .footer {
+.header,
+.main-container,
+.footer {
   background-color: #460000;
 }
 nav {
@@ -79,15 +81,18 @@ html {
   background-color: #000;
 }
 
-.section:nth-child(1), .section:nth-child(5) {
+.section:nth-child(1),
+.section:nth-child(5) {
   border-radius: 0 200px 200px 0;
 }
 
-.section:nth-child(4), .section:nth-child(8) {
+.section:nth-child(4),
+.section:nth-child(8) {
   border-radius: 200px 0 0 200px;
 }
 
-.section-experience, .section-languages {
+.section-experience,
+.section-languages {
   padding: 20px;
   align-content: center;
   padding-left: 40px;
@@ -121,7 +126,10 @@ html {
   list-style: none;
   list-style-image: url(assets/svg/discord.png);
 }
-.email, .telegram, .github, .languages {
+.email,
+.telegram,
+.github,
+.languages {
   line-height: 2.8;
 }
 .code {
@@ -161,10 +169,18 @@ html {
 .caption {
   font-size: 22px;
 }
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
 .img-experience {
   width: 150px;
   height: auto;
 }
+
 .footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -197,11 +213,13 @@ html {
     background-color: #460000;
   }
 
-  .section:nth-child(1), .section:nth-child(5) {
+  .section:nth-child(1),
+  .section:nth-child(5) {
     border-radius: 0 200px 200px 0;
   }
 
-  .section:nth-child(3), .section:nth-child(7) {
+  .section:nth-child(3),
+  .section:nth-child(7) {
     border-radius: 200px 0 0 200px;
   }
 
@@ -223,6 +241,10 @@ html {
     margin-left: 0;
   }
 
+  .works {
+    padding-left: 70px;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -241,5 +263,12 @@ html {
 
   .courses-list {
     padding-left: 5px;
+  }
+
+  .works {
+    padding-left: 85px;
+  }
+  .img-experience {
+    width: 100px;
   }
 }
