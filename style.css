@@ -166,6 +166,9 @@ html {
 .courses-list-li {
   width: 45%;
 }
+.logo-rsschool {
+  width: 180px;
+}
 .caption {
   font-size: 22px;
 }
@@ -192,8 +195,8 @@ html {
   transition: .3s;
   margin-top: 20px;
 }
-.footer-container img {
-  width: 80%;
+.footer-container-logo-rsschool {
+  width: 140px;
 }
 
 @media (max-width: 889px) {
@@ -245,6 +248,12 @@ html {
     padding-left: 70px;
   }
 
+  .footer-container-logo-rsschool img {
+    border: 3px solid #3E77BF;
+    border-radius: 8px;
+    background-color: #3E77BF;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -268,7 +277,12 @@ html {
   .works {
     padding-left: 85px;
   }
+
   .img-experience {
     width: 100px;
+  }
+
+  .logo-rsschool {
+    width: 140px;
   }
 }
