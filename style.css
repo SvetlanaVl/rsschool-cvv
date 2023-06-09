@@ -216,11 +216,19 @@ html {
     width: 180px;
     margin: 30px auto 0;
   }
+
+  .indent-about {
+    margin-top: 16px;
+    padding-left: 30px;
+  }
 }
 
 @media (max-width: 375px) {
   .section {
     padding: 0;
   }
-
+  
+  .indent-about {
+    margin-bottom: 55px;
+  }
 }
