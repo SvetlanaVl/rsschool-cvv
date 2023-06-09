@@ -131,9 +131,11 @@ html {
 .email, .telegram, .github, .languages {
   line-height: 2.8;
 }
+.code {
+  display: flex;
+  justify-content: center;
+}
 .snippet {
-  margin-left: -50px;
-  margin-bottom: -50px;
   color: #fff;
 }
 .section-title {
@@ -221,6 +223,7 @@ html {
     margin-top: 16px;
     padding-left: 30px;
   }
+
 }
 
 @media (max-width: 375px) {
@@ -230,5 +233,10 @@ html {
   
   .indent-about {
     margin-bottom: 55px;
+  }
+
+  .skills-list {
+    margin-left: 0;
+    padding: 15px;
   }
 }
