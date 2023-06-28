@@ -17,6 +17,9 @@ body {
   color: #fff;
   user-select: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 .header,
 .main-container,
 .footer {
@@ -53,9 +56,6 @@ nav {
   border-radius: 10%;
   box-shadow: inset 0px 0px 20px 5px rgb(10, 10, 10);
 }
-html {
-  scroll-behavior: smooth;
-}
 .main {
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
@@ -73,24 +73,20 @@ html {
   align-content: center;
   padding-left: 40px;
 }
-
 .section:nth-child(1),
 .section:nth-child(4),
 .section:nth-child(5),
 .section:nth-child(8) {
   background-color: #000;
 }
-
 .section:nth-child(1),
 .section:nth-child(5) {
   border-radius: 0 200px 200px 0;
 }
-
 .section:nth-child(4),
 .section:nth-child(8) {
   border-radius: 200px 0 0 200px;
 }
-
 .section-experience,
 .section-languages {
   padding: 20px;
@@ -111,7 +107,6 @@ html {
   margin: 0 -30px auto;
   transition: 1s;
 }
-
 .img-photo:hover {
   transform: scale(1.15);
 }
@@ -161,9 +156,8 @@ html {
 .skills-list li {
   transition: 1s;
 }
-
 .skills-list li:hover {
-  transform: rotate(360deg);
+  transform: rotate(60deg);
 }
 .courses-list {
   list-style: none;
@@ -183,10 +177,11 @@ html {
 }
 .courses-list-li_img {
   transition: all 0.5s ease;
+  opacity: 0.7;
 }
 .courses-list-li_img:hover {
-  transform: rotate(-15deg);
-  border: 3px solid #000;
+  transform: scale(1.1);
+  opacity: 1;
 }
 .caption {
   font-size: 22px;
@@ -203,11 +198,9 @@ html {
   height: auto;
   transition: 1s;
 }
-
 .img-experience:hover {
   transform: scale(1.1);
 }
-
 .footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -227,85 +220,67 @@ html {
   .main-container {
     grid-template-columns: 1fr;
   }
-
   .section {
     padding-left: 20px;
   }
-
   .section:nth-child(odd) {
     background-color: #000;
   }
-
   .section:nth-child(even) {
     background-color: #460000;
   }
-
   .section:nth-child(1),
   .section:nth-child(5) {
     border-radius: 0 200px 200px 0;
   }
-
   .section:nth-child(3),
   .section:nth-child(7) {
     border-radius: 200px 0 0 200px;
   }
-
   .footer {
     background-color: #000;
   }
-
   .img-photo {
     width: 180px;
     margin: 30px auto 0;
   }
-
   .indent-about {
     margin-top: 16px;
     padding-left: 30px;
   }
-
   .courses-list {
     margin-left: 0;
   }
-
   .works {
     padding-left: 70px;
   }
-
   .footer-container-logo-rsschool img {
     border: 3px solid #3E77BF;
     border-radius: 8px;
     background-color: #3E77BF;
   }
-
 }
 
 @media (max-width: 375px) {
   .section {
     padding: 0;
   }
-  
   .indent-about {
     margin-bottom: 55px;
   }
-
   .skills-list {
     margin-left: 0;
     padding: 15px;
   }
-
   .courses-list {
     padding-left: 5px;
   }
-
   .works {
     padding-left: 85px;
   }
-
   .img-experience {
     width: 100px;
   }
-
   .logo-rsschool {
     width: 140px;
   }
