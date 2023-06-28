@@ -16,103 +16,115 @@
     <div class="container">
       <nav>
         <ul class="nav-list">
-            <li><a class="link" href="#contacts">Contacts</a></li>
-            <li><a class="link" href="#aboutMe">About Me</a></li>
-            <li><a class="link" href="#skills">Skills</a></li>
-            <li><a class="link" href="#code">Code example</a></li>
-            <li><a class="link" href="#courses">Courses</a></li>
-            <li><a class="link" href="#experience">Experience</a></li>
-            <li><a class="link" href="#languages">Languages</a></li>
+          <li><a class="link" href="#contacts">Contacts</a></li>
+          <li><a class="link" href="#aboutMe">About Me</a></li>
+          <li><a class="link" href="#skills">Skills</a></li>
+          <li><a class="link" href="#code">Code example</a></li>
+          <li><a class="link" href="#courses">Courses</a></li>
+          <li><a class="link" href="#experience">Experience</a></li>
+          <li><a class="link" href="#languages">Languages</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main class="main">
     <div class="main-container">
-      <section class="section black-background black-radius-right" id="welcome">
-        <div class="color-border">
-          <img src="assets/img/photo.jpg" alt="my photo">
-        </div>
+      <section class="section" id="welcome">
+        <img class="img-photo" src="assets/img/photo.jpg" alt="my photo">
         <h1 class="section-title">Svetlana Sharygina</h1>
       </section>
-      <section class="section red-background red-radius" id="contacts">
+      <section class="section red-radius" id="contacts">
         <h2 class="section-title">Contacts</h2>
         <ul class="indent">
-            <li class="email">Email: fidelity-67rus@mail.ru</li>
-            <li class="telegram">Telegram: @SvetlanaVl67</li>
-            <li class="github"><a class="link" href="https://github.com/SvetlanaVl"  target="_blank">GitHub</a></li>
-            <li class="discord"><a class="link" href="https://discordapp.com/users/974226730535497739/"  target="_blank">Discord</a></li>
+          <li class="email">Email: fidelity-67rus@mail.ru</li>
+          <li class="telegram">Telegram: @SvetlanaVl67</li>
+          <li class="github"><a class="link" href="https://github.com/SvetlanaVl"  target="_blank">GitHub</a></li>
+          <li class="discord"><a class="link" href="https://discordapp.com/users/974226730535497739/"  target="_blank">Discord</a></li>
         </ul>
       </section>
-      <section class="section red-background" id="aboutMe">
+      <section class="section" id="aboutMe">
         <h2 class="section-title">About Me</h2>
-        <p class="indent">My goal is to master the profession of a frontend developer. I am independently studying HTML and CSS. I want to get new knowledge, for this I am studying on the course JS / FRONT-END RS School.</p>
+        <p class="indent indent-about">My goal is to master the profession of a frontend developer. I am independently studying HTML and CSS. I want to get new knowledge, for this I am studying on the course JS / FRONT-END RS School.</p>
       </section>
-      <section class="section black-background black-radius-left" id="skills">
+      <section class="section" id="skills">
         <h2 class="section-title">Skills</h2>
         <ul class="indent skills-list">
-            <li><img src="assets/svg/html-5.png" alt="html"></li>
-            <li><img src="assets/svg/css-3.png" alt="css"></li>
-            <li><img src="assets/svg/git1.png" alt="git"></li>
-            <li><img src="assets/svg/github1.png" alt="github"></li>
+          <li><img src="assets/svg/html-5.png" alt="html"></li>
+          <li><img src="assets/svg/css-3.png" alt="css"></li>
+          <li><img src="assets/svg/git1.png" alt="git"></li>
+          <li><img src="assets/svg/github1.png" alt="github"></li>
         </ul>
       </section>
-      <section class="section black-background black-radius-right" id="code">
+      <section class="section" id="code">
         <h2 class="section-title">Code example</h2>
-        <pre class="snippet">
+        <div class="code">
+          <pre class="snippet">
             <code>
-              function saleHotdogs(n) {
-                if (n&lt;5) {
-                  return n * 100;
-                } else if (n&gt;=5 && n&lt;10) {
-                  return n * 95;
-                } else {
-                  return n * 90;
-                }
-              }
+    function saleHotdogs(n) {
+      if (n&lt;5) {
+        return n * 100;
+      } else if (n&gt;=5 && n&lt;10) {
+        return n * 95;
+      } else {
+        return n * 90;
+      }
+    }
             </code>
-        </pre>
+          </pre>
+        </div>
       </section>
-      <section class="section red-background" id="courses">
+      <section class="section" id="courses">
         <h2 class="section-title">Education and Courses</h2>
         <ul class="indent courses-list">
-            <li>  
-              <a class="link link-experience" href="https://htmlacademy.ru/study"  target="_blank">
-                <img src="assets/svg/academy.png" alt="html academy">
-                <p class="caption-courses">HTML Academy</p>
-              </a>
-            </li>
-            <li>  
-              <a class="link link-experience" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"  target="_blank">
-                <img src="assets/svg/freecode.png" alt="free code camp">
-                <p class="caption-courses">freeCodeCamp</p>
-              </a>
-            </li>
-            <li>  
-              <a class="link link-experience" href="https://www.udemy.com/share/101ulQ3@m3JPFzc5MzRGjjmp5I30pdQpGBJGHj86C2lLBFA0JcsZ8mwOWXisPoMenvvhC5CUhA==/"  target="_blank">
-                <img src="assets/svg/online-course.png" alt="udemy">
-                <p class="caption-courses">Udemy</p>
-              </a>
-            </li>
+
+          <li class="courses-list-li"> 
+            <a class="link" href="https://htmlacademy.ru/study"  target="_blank">
+              <img class="courses-list-li_img" src="assets/svg/academy.png" alt="html academy">
+              <p class="caption">HTML Academy</p>
+            </a>
+          </li>
+          <li class="courses-list-li">  
+            <a class="link" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"  target="_blank">
+              <img class="courses-list-li_img" src="assets/svg/freecode.png" alt="free code camp">
+              <p class="caption">freeCodeCamp</p>
+            </a>
+          </li>
+          <li class="courses-list-li">  
+            <a class="link" href="https://www.udemy.com/share/101ulQ3@m3JPFzc5MzRGjjmp5I30pdQpGBJGHj86C2lLBFA0JcsZ8mwOWXisPoMenvvhC5CUhA==/"  target="_blank">
+              <img class="courses-list-li_img" src="assets/svg/online-course.png" alt="udemy">
+              <p class="caption">Udemy</p>
+            </a>
+          </li>
+          <li class="courses-list-li">  
+            <a class="link" href="https://rs.school"  target="_blank">
+              <img class="logo-rsschool courses-list-li_img" src="assets/svg/rs_school_js.svg" alt="rs school">
+              <p class="caption">RS School</p>
+            </a>
+          </li>
         </ul>
       </section>
-      <section class="section-experience red-background" id="experience">
+      <section class="section section-experience" id="experience">
         <h2 class="section-title">Experience</h2>
-        <a class="link link-experience" href="https://svetlanavl.github.io/rsschool-cv"  target="_blank">
+
+        <div class="works">
+          <a class="link" href="https://svetlanavl.github.io/rsschool-cv"  target="_blank">
             <img class="img-experience" src="assets/img/fistwork.png" alt="my first work">
+          </a>
+          <a class="link" href="https://svetlanavl.github.io/rsschool-cv"  target="_blank">
             <p class="caption">This is my <br> first work</p>
-        </a>
+          </a>
+        </div>
       </section>
-      <section class="section-languages black-background black-radius-left" id="languages">
+      <section class="section section-languages" id="languages">
         <h2 class="section-title">Languages</h2>
         <ul class="indent">
-            <li class="languages">Russian (native speaker)</li>
-            <li class="languages">English
-                <ul>
-                    <li class="languages">Test results: A1-A2</li>
-                    <li class="languages">I learn in various applications, try to read articles in English</li>
-                </ul>
-            </li>
+          <li class="languages">Russian (native speaker)</li>
+          <li class="languages">English
+            <ul>
+              <li class="languages">Test results: A1-A2</li>
+              <li class="languages">I learn in various applications, try to read articles in English</li>
+            </ul>
+          </li>
         </ul>
       </section>
     </div>
@@ -121,7 +133,7 @@
     <div class="footer-container">
       <a class="link" href="https://github.com/SvetlanaVl"  target="_blank"><img src="assets/svg/github1.png" alt="my github"></a>
       <p>2022</p>
-      <a href="https://rs.school/js/"  target="_blank"><img src="assets/svg/rs_school_js.ico" alt="logo rs school"></a>
+      <a class="footer-container-logo-rsschool" href="https://rs.school/js/"  target="_blank"><img src="assets/svg/rs_school_js.svg" alt="logo rs school"></a>
     </div>
   </footer>
 </body>
