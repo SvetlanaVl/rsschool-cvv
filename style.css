@@ -37,7 +37,7 @@ nav {
   list-style: none;
   padding: 0 20px;
   line-height: 50px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .link {
   text-decoration: none;
@@ -183,14 +183,6 @@ nav {
   transform: scale(1.1);
   opacity: 1;
 }
-.caption-courses {
-  font-size: 26px;
-  margin: 15px 50px;
-}
-.link-experience {
-  display: flex;
-  justify-content: center;
-}
 .caption {
   font-size: 22px;
 }
@@ -202,7 +194,7 @@ nav {
   align-items: center;
 }
 .img-experience {
-  width: 30%;
+  width: 150px;
   height: auto;
   transition: 1s;
 }
@@ -217,7 +209,7 @@ nav {
   list-style: none;
   padding: 0 20px;
   line-height: 50px;
-  transition: .3s;
+  transition: 0.3s;
   margin-top: 20px;
 }
 .footer-container-logo-rsschool {
