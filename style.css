@@ -183,6 +183,14 @@ nav {
   transform: scale(1.1);
   opacity: 1;
 }
+.caption-courses {
+  font-size: 26px;
+  margin: 15px 50px;
+}
+.link-experience {
+  display: flex;
+  justify-content: center;
+}
 .caption {
   font-size: 22px;
 }
@@ -194,7 +202,7 @@ nav {
   align-items: center;
 }
 .img-experience {
-  width: 150px;
+  width: 30%;
   height: auto;
   transition: 1s;
 }
